@@ -1,0 +1,44 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+}
+
+.special-color{
+    color: 	rgb(191, 0, 255);
+}
+.heading-font{
+    font-size: 50px;
+}
+.top-sec{
+    display: flex;
+    background-image: url(/Images/top-banner.png);
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+
+}
+.middle-sec{
+    display: flex;
+    background-image: url(/Images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+.half-width{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    height: 100%;
+    width: 100%;
+}
+.half-width a{
+    text-decoration: none;
+    font-size: larger;
+    /* background-color: blueviolet; */
+    color: white;
+    padding: 5px 20px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, blueviolet, DeepPink);
+}
