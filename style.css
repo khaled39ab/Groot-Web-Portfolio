@@ -4,7 +4,7 @@ body{
     margin: 0;
 }
 
-.special-color{
+#special-color{
     color: 	rgb(191, 0, 255);
 }
 .heading-font{
@@ -24,6 +24,12 @@ body{
     background-position: right;
     margin-bottom: 100px;
 }
+#experiences-sec{
+    display: flex;
+    background-image: url(/Images/exp-bg.png);
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
 .half-width{
     width: 40%;
     margin-left: 5%;
@@ -36,9 +42,38 @@ body{
 .half-width a{
     text-decoration: none;
     font-size: larger;
-    /* background-color: blueviolet; */
     color: white;
     padding: 5px 20px;
     border-radius: 10px;
     background: linear-gradient(90deg, blueviolet, DeepPink);
+}
+.sub-heading{
+    color: orange;
+}
+
+.box{
+    box-shadow: 10px 10px 40px gray;
+    padding-right: 10px;
+    padding-bottom: 30px;
+}
+.box p{
+    text-align: justify;
+}
+
+#full-stack{
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg, hotpink, coral);
+    border-image-slice: 1;
+}
+
+#baby-web{
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+    font-weight: 100;
+    font-size: 14px;
 }
