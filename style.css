@@ -12,21 +12,21 @@ body{
 }
 #top-sec{
     display: flex;
-    background-image: url(/Images/top-banner.png);
+    background-image: url(Images/top-banner.png);
     background-repeat: no-repeat;
     margin-bottom: 100px;
 
 }
 #dream-sec{
     display: flex;
-    background-image: url(/Images/dream-bg.png);
+    background-image: url(Images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
     margin-bottom: 100px;
 }
 #experiences-sec{
     display: flex;
-    background-image: url(/Images/exp-bg.png);
+    background-image: url(Images/exp-bg.png);
     background-repeat: no-repeat;
     margin-bottom: 100px;
 }
